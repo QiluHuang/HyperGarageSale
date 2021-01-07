@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "481900834703",
+    "firebase_url": "https://hyper-garage-sale-lunahuang.firebaseio.com",
+    "project_id": "hyper-garage-sale-lunahuang",
+    "storage_bucket": "hyper-garage-sale-lunahuang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481900834703:android:9305d5c77d4b9575cfa5fa",
+        "android_client_info": {
+          "package_name": "lunahuang.hypergaragesale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481900834703-qkp8t7bk15gcn8jo34c7fs7kb3pl4me0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-cEwHM5dHixHftR8WICsNxTe-owlSTZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481900834703-qkp8t7bk15gcn8jo34c7fs7kb3pl4me0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

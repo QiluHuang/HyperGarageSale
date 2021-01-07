@@ -1,0 +1,111 @@
+name: hypergaragesale
+description: A platform for users to discover, buy and sell second-hand items with people in their community.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.15.6
+
+  cupertino_icons: ^0.1.2
+  shrine_images: 1.1.1
+  modal_progress_hud: ^0.1.3
+
+  # firebase
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+  firebase_storage: ^3.1.5 #firebase对象存储插件，核心插件
+  flutter_image_compress: ^0.6.5+1 #图片压缩插件。非必选
+
+  # images settings
+  cached_network_image: ^2.1.0 #网络图片加载插件，支持缓存
+  multi_image_picker: ^4.6.6 #图片多选插件
+  camera: ^0.5.7+4 #提供使用设备相机模块的工具
+  path_provider: ^1.6.5 #提供获得应用路径, 寻找存储图片的正确路径
+  path: ^1.6.4 #路径操作,创建适配任何平台的路径
+  image_picker: ^0.6.5 #从gallery选取照片
+  image_cropper: ^1.2.1 #裁剪
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/login_images/
+    # Demo
+    - packages/shrine_images/0-0.jpg
+    - packages/shrine_images/1-0.jpg
+    - packages/shrine_images/2-0.jpg
+    - packages/shrine_images/3-0.jpg
+    - packages/shrine_images/4-0.jpg
+    - packages/shrine_images/5-0.jpg
+    - packages/shrine_images/6-0.jpg
+    - packages/shrine_images/7-0.jpg
+    - packages/shrine_images/8-0.jpg
+    - packages/shrine_images/9-0.jpg
+    - packages/shrine_images/10-0.jpg
+    - packages/shrine_images/11-0.jpg
+    - packages/shrine_images/12-0.jpg
+    - packages/shrine_images/13-0.jpg
+    - packages/shrine_images/14-0.jpg
+    - packages/shrine_images/15-0.jpg
+    - packages/shrine_images/16-0.jpg
+    - packages/shrine_images/17-0.jpg
+    - packages/shrine_images/18-0.jpg
+    - packages/shrine_images/19-0.jpg
+    - packages/shrine_images/20-0.jpg
+    - packages/shrine_images/21-0.jpg
+    - packages/shrine_images/22-0.jpg
+    - packages/shrine_images/23-0.jpg
+    - packages/shrine_images/24-0.jpg
+    - packages/shrine_images/25-0.jpg
+    - packages/shrine_images/26-0.jpg
+    - packages/shrine_images/27-0.jpg
+    - packages/shrine_images/28-0.jpg
+    - packages/shrine_images/29-0.jpg
+    - packages/shrine_images/30-0.jpg
+    - packages/shrine_images/31-0.jpg
+    - packages/shrine_images/32-0.jpg
+    - packages/shrine_images/33-0.jpg
+    - packages/shrine_images/34-0.jpg
+    - packages/shrine_images/35-0.jpg
+    - packages/shrine_images/36-0.jpg
+    - packages/shrine_images/37-0.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
